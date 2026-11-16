@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import cover from "@/assets/oriental-corner-cover.jpg.asset.json";
 import geometric from "@/assets/collection-geometric.jpg";
 import minimalist from "@/assets/collection-minimalist.jpg";
 import statement from "@/assets/collection-statement.jpg";
@@ -39,7 +38,7 @@ function Index() {
             </div>
           </div>
           <div className="relative aspect-[4/5] overflow-hidden md:aspect-auto md:min-h-[680px]">
-            <img src={cover.url} alt="Handmade wool-cotton kilim OR 0561 in a warm living room" className="absolute inset-0 h-full w-full object-cover object-top" />
+            <img src={statement} alt="Handmade wool-cotton kilim OR 0561 in a warm living room" className="absolute inset-0 h-full w-full object-cover object-top" />
           </div>
         </div>
       </section>
